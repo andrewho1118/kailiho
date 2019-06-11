@@ -1,0 +1,39 @@
+
+body {
+    padding-top: 55px; /*navbar offset*/
+    background-color: black; /* #242324 */
+    color: white;
+}
+
+/*.navbar {
+    background-color: #333333; 
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+    .navbar-brand:hover {
+        color: white;
+    }
+
+
+.nav-link {
+    color: white;
+}
+
+    .nav-link:hover {
+        color: rgba(255,255,255,.75);
+    }
+
+*/
+
+
+.dropdown-menu {
+    background-color: #333333;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #444444;
+}
