@@ -1,39 +1,80 @@
 
 body {
-    padding-top: 55px; /*navbar offset*/
+    padding-top: 56px; /*navbar offset*/
     background-color: black; /* #242324 */
     color: white;
 }
 
-/*.navbar {
-    background-color: #333333; 
-    color: white;
+h1 {
+    padding: 3rem;
+    text-align: center;
 }
 
-.navbar-brand {
-    color: white;
-}
-    .navbar-brand:hover {
-        color: white;
-    }
-
-
-.nav-link {
-    color: white;
-}
-
-    .nav-link:hover {
-        color: rgba(255,255,255,.75);
-    }
-
-*/
-
-
-.dropdown-menu {
+/*.dropdown-item .dropdown-menu {
     background-color: #333333;
     color: white;
 }
 
 .dropdown-item:hover {
     background-color: #444444;
+}*/
+
+.modal {    /* 讓contact me的字是白色的 */
+    color: black;
+}
+
+/* events.html*/
+.listitem {
+    line-height: 18px;
+}
+
+    .listitem ul {
+        list-style-type: none;
+    }
+
+    .listitem li {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .listitem .listyear {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .listitem .listdate {
+        color: red;
+    }
+
+    .listitem li:hover {
+        background: #333333;
+        cursor: pointer;
+    }
+
+/* vedios.html*/
+.content {
+    width: 100%;
+    text-align: center;
+    /*padding: 0 35px;
+    margin: 0 123px;*/
+}
+
+    .content h1 {
+        padding: 35px;
+        font-size: 3em;
+    }
+
+.myquote {
+    color: black;
+    background-color: #F7F7F7;
+    margin: 0 auto 28px auto;
+    padding: 56px;
+    width: 60%;
+    font-size: 2em;
+}
+
+.vedioblock {
+    width: 50%;
+    margin: 28px auto auto auto;
+    border: 1px solid white;
 }
