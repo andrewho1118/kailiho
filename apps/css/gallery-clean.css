@@ -32,11 +32,12 @@ body {
     border: none;
 }
 
-.tz-gallery img {
-    width: 300px;
-    height: 300px;
-    border-radius: 2px;
-}
+    .tz-gallery img {
+        width: 300px;
+        height: 300px;
+        border-radius: 2px;
+        object-fit: cover;  /*避免圖片縮小後失真*/
+    }
 
 .tz-gallery .caption{
     padding: 26px 15px;
