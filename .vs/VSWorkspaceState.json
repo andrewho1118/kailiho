@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\apps",
-    "\\apps\\img\\kailiho",
-    "\\apps\\img\\kailiho\\首頁圖片",
-    "\\bootstrap-4.3.1\\scss"
+    "\\apps\\vendor",
+    "\\apps\\vendor\\lightGallery-master",
+    "\\apps\\vendor\\lightGallery-master\\dist",
+    "\\apps\\vendor\\lightGallery-master\\dist\\js",
+    "\\apps\\vendor\\lightGalleryPlugin"
   ],
-  "SelectedNode": "\\apps\\img",
   "PreviewInSolutionExplorer": false
 }
