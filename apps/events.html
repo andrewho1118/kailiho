@@ -7,6 +7,7 @@
     <meta name="author" content="Kaili Ho">
     <title>Pianist Kaili Ho</title>
     <!-- css -->
+    <link rel="shortcut icon" href="#">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="vendor/slick-1.8.1/slick.css" />
     <link rel="stylesheet" type="text/css" href="vendor/slick-1.8.1/slick-theme.css" />
@@ -32,7 +33,7 @@
                     $('#BackTop').stop().fadeOut(222);
                 }
             }).scroll();
-            
+
             /* event toggle */
             $('#event_all').click(function () {
                 $('.eventlist').show();
@@ -87,18 +88,22 @@
                     <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-me.html">ABOUT</a>
+                    <a class="nav-link" href="about.html">ABOUT</a>
                 </li>
-                <li class="nav-item dropdown active">
-                    <a id="events" class="nav-link dropdown-toggle" href="events.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        EVENTS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="events">
-                        <a id="event_all" class="dropdown-item" href="events.html">ALL</a>
-                        <div class="dropdown-divider"></div>
-                        <a id="event2019" class="dropdown-item" href="events.html?2019">2019</a>
-                        <a id="event2018" class="dropdown-item" href="events.html?2018">2018</a>
-                    </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="events.html">EVENTS</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a id="event_all" class="dropdown-item" href="events.html">ALL</a>
+                            <div class="dropdown-divider"></div>
+                        </li>
+                        <li>
+                            <a id="event2019" class="dropdown-item" href="events.html?2019">2019</a>
+                        </li>
+                        <li>
+                            <a id="event2018" class="dropdown-item" href="events.html?2018">2018</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="videos.html">VIDEOS</a>

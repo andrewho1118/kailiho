@@ -13,7 +13,7 @@
 body {
     font-family: 'bell-mt'; /* 在title再設定一次font-familiy也會有效果，不知道為啥 */
     padding-top: 56px; /*navbar offset*/
-    background-color: black; /* #242324 */
+    background-color: #171717; /* #242324 */
     color: white;
 }
 
@@ -41,8 +41,13 @@ h1 {
     color: black;
 }
 
+/* about.html */
+.article01 {
+    color: #c5c7c5;
+}
 /* events.html*/
 .listitem {
+    color: #c5c7c5;
     font-size: 14pt;
     line-height: 18px;
 }
@@ -84,11 +89,11 @@ h1 {
     }
 
 .myquote {
-    color: black;
-    background-color: #F7F7F7;
+    color: #c5c7c5;
+    background-color: #1F1F1F;
     margin: 0 auto 28px auto;
-    padding: 56px;
-    width: 60%;
+    padding: 1rem;
+    width: 50%;
     font-size: 2em;
 }
 
@@ -122,3 +127,16 @@ h1 {
     -webkit-box-shadow: 19px 31px 29px #333333;
     -moz-box-shadow: 19px 31px 29px #333333;
 }
+
+.div_radius10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.div_radius15 {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+

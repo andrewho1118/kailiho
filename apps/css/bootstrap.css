@@ -7035,6 +7035,11 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-brand:hover {
   color: white; }
 
+/*dropdown*/
+.dropdown-menu {
+  margin-top: -1px;
+  /*避免user在滑鼠稍微往下移出dropdown menu的時候就觸發hover，導致menu關閉*/ }
+
 .dropdown-menu .dropdown-item {
   background-color: #333333;
   color: white; }
@@ -7044,8 +7049,7 @@ a.text-dark:hover, a.text-dark:focus {
   cursor: pointer; }
 
 .dropdown-toggle::after {
-  display: none;
-  /* 隱藏nav-item dropdown的向下箭頭圖示 */ }
+  display: none; }
 
 .dropdown:hover > .dropdown-menu {
   display: block;
