@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\apps",
-    "\\apps\\vendor",
-    "\\apps\\vendor\\lightGallery-master",
-    "\\apps\\vendor\\lightGallery-master\\dist",
-    "\\apps\\vendor\\lightGallery-master\\dist\\js",
-    "\\apps\\vendor\\lightGalleryPlugin"
+    "\\bootstrap-4.3.1",
+    "\\bootstrap-4.3.1\\scss"
   ],
+  "SelectedNode": "\\bootstrap-4.3.1\\scss\\_buttons.scss",
   "PreviewInSolutionExplorer": false
 }
