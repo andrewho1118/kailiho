@@ -56,10 +56,10 @@
             margin: 16px;
             display: block;
             float: left;
-            margin-top: 60vh;
-            margin-left: 20vw;
+            margin-top: 47vh;
+            margin-left: 14.5vw;
             color: #FFF;
-            font-size: 1.5rem;
+            font-size: 2rem;
             font-style: italic;
         }
         
@@ -68,12 +68,18 @@
         $(function () {
             $('.responsive').slick({
                 infinite: true,
-                speed: 1200,
+                dots: true,
+                fade: true,
+                cssEase: 'linear',
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: true,
+                speed: 1000,
                 autoplaySpeed: 3000,
                 arrows: false,
+                draggable: false,
+                pauseOnHover: false,
+                pauseOnFocus: false,
                 //prevArrow: '<button type="button" class="slick-prev Btn-prev">Previous</button>',
                 //nextArrow: '<button type="button" class="slick-next Btn-next">Next</button>',
                 responsive: [
@@ -134,7 +140,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
-            <a class="navbar-brand" href="index.html">Pianist Kaili Ho</a>
+            <a class="navbar-brand">Pianist Kaili Ho</a>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-right">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">HOME</a>
