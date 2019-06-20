@@ -38,7 +38,16 @@
                     $('#BackTop').stop().fadeOut(222);
                 }
             }).scroll();
+            $(window).resize(function () {
+                $("#winWidth").html("<p>" + getWidth() + "</p>");
+            });
         });
+        function getWidth() {
+            var s = "";
+            s += "網頁可見區域寬：" + (document.body.clientWidth + 18);
+            s += "<br/>網頁可見區域高：" + document.body.clientHeight;
+            return s;
+        }
     </script>
 </head>
 <body>
@@ -89,465 +98,466 @@
     <!--body-->
     <div>
         <h1>Gallery</h1>
+        <div id="winWidth" style="display: block; font-family: Arial;"></div>
         <div class="container gallery-container">
             <div class="tz-gallery">
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
+                <div class="row" style="text-align: center;">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
-                            <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0001.jpg" title="test comment">
+                            <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0001.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0001.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0002.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0002.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0003.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0003.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0004.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0004.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0005.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0005.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0006.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0006.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0007.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0007.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0008.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0008.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0009.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0009.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0010.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0010.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0011.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0011.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0012.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0012.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0013.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0013.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0014.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0014.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0015.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0015.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0016.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0016.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0017.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0017.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0018.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0018.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0019.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0019.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0020.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0020.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0021.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0021.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0022.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0022.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0023.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0023.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0024.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0024.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0025.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0025.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0026.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0026.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0027.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0027.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0028.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0028.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0029.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0029.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0030.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0030.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0031.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0031.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0032.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0032.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0033.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0033.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0034.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0034.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0035.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0035.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0036.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0036.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0037.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0037.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0038.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0038.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0039.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0039.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0040.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0040.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0041.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0041.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0042.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0042.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0043.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0043.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0044.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0044.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0045.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0045.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0046.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0046.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0047.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0047.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0048.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0048.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0049.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0049.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0050.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0050.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0051.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0051.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0052.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0052.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0053.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0053.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0054.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0054.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0055.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0055.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0056.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0056.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0057.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0057.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0058.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0058.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0059.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0059.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0060.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0060.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0061.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0061.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0062.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0062.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0063.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0063.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0064.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0064.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0065.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0065.jpg" alt="Park">
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="thumbnail">
                             <a class="lightbox hvr-rotate" href="img/kailiho/gallery/photos for Gallery_190611_0066.jpg">
                                 <img src="img/kailiho/gallery/photos for Gallery_190611_0066.jpg" alt="Park">
