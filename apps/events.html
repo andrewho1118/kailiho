@@ -66,7 +66,32 @@
                 default:
                     $('.eventlist').show();
             }
+           
+            $(window).resize(function () {
+                $("#winWidth").html("<p>"+getWidth()+"</p>");
+            });
         });
+        function getWidth() {
+            var s = "";
+            s += "網頁可見區域寬：" + (document.body.clientWidth+18);
+            s += "<br/>網頁可見區域高：" + document.body.clientHeight;
+            //s += "<br/>網頁可見區域寬：" + document.body.offsetWidth + " (包括邊線和捲軸的寬)";
+            //s += "<br/>網頁可見區域高：" + document.body.offsetHeight + " (包括邊線的寬)";
+            //s += "<br/>網頁正文全文寬：" + document.body.scrollWidth;
+            //s += "<br/>網頁正文全文高：" + document.body.scrollHeight;
+            //s += "<br/>網頁被卷去的高(ff)：" + document.body.scrollTop;
+            //s += "<br/>網頁被卷去的高(ie)：" + document.documentElement.scrollTop;
+            //s += "<br/>網頁被卷去的左：" + document.body.scrollLeft;
+            //s += "<br/>網頁正文部分上：" + window.screenTop;
+            //s += "<br/>網頁正文部分左：" + window.screenLeft;
+            //s += "<br/>螢幕解析度的高：" + window.screen.height;
+            //s += "<br/>螢幕解析度的寬：" + window.screen.width;
+            //s += "<br/>螢幕可用工作區高度：" + window.screen.availHeight;
+            //s += "<br/>螢幕可用工作區寬度：" + window.screen.availWidth;
+            //s += "<br/>你的螢幕設置是 " + window.screen.colorDepth + " 位彩色";
+            //s += "<br/>你的螢幕設置 " + window.screen.deviceXDPI + " 像素/英寸";
+            return s;
+        }
     </script>
 
     <style>
@@ -121,11 +146,12 @@
     <!--body-->
     <div style="max-width: 100%;">
         <h1>Events</h1>
+        <div id="winWidth" style="display: none; font-family: Arial;"></div>
         <br />
         <div class="container">
-            <div class="row">
+            <div class="row eventsRWD">
                 <div class="col-lg-12">
-                    <div id="list2019" class="eventlist listitem" style="padding: 0 3rem 3rem 3rem;">
+                    <div id="list2019" class="eventlist listitem">
                         <ul>
                             <li class="listyear">
                                 2019
@@ -200,7 +226,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div id="list2018" class="eventlist listitem" style="padding: 0 3rem 3rem 3rem;">
+                    <div id="list2018" class="eventlist listitem">
                         <ul>
                             <li class="listyear">
                                 2018
