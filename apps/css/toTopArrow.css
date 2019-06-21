@@ -26,7 +26,7 @@
     cursor: pointer;
     position: fixed;
     right: 2vh; /* 設定toTopArrow水平位置 */
-    bottom: 3vh; /* 設定toTopArrow垂直位置 */
+    bottom: 4vh; /* 設定toTopArrow垂直位置 */
     display: none;
     z-index: 5;
 }
