@@ -19,7 +19,7 @@ body {
 
 .footer-height {
     display: flex;
-    height: 2.5vh;
+    height: 3vh;
     align-items: center;
     justify-content: center;
 }
