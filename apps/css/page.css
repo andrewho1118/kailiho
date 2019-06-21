@@ -86,7 +86,7 @@ h1 {
     padding: 1rem;
     width: 50%;
     font-size: 2em;
-}
+}v
 
 .vedioblock {
     width: 50%;
@@ -133,6 +133,7 @@ h1 {
 
 /* RWD */
 @media (min-width: 1200px) {
+    /* events */
     .eventsRWD {
         margin-left: 200px;
         margin-right: 200px;
@@ -153,9 +154,13 @@ h1 {
         font-size: 1.8rem;
         font-weight: 700;
     }
+    /* videos */
+
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* events */
     .eventsRWD {
         margin-left: 100px;
         margin-right: 100px;
@@ -177,9 +182,11 @@ h1 {
         font-size: 1.8rem;
         font-weight: 700;
     }
+    /* videos */
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
+    /* events */
     .eventsRWD {
         margin-left: 50px;
         margin-right: 50px;
@@ -199,9 +206,11 @@ h1 {
             font-size: 20pt;
             font-weight: 700;
         }
+    /* videos */
 }
 
 @media screen and (max-width: 768px) {
+    /* events */
     .eventsRWD {
         margin-left: -40px;
         margin-right: 0px;
@@ -221,4 +230,5 @@ h1 {
             font-size: 20pt;
             font-weight: 700;
         }
+    /* videos */
 }
