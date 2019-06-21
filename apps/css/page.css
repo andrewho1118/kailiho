@@ -67,20 +67,33 @@ h1 {
 /* events.html*/
 .listitem {
     color: #c5c7c5;
+    font-size: 1.2rem;
+    line-height: 18px;
 }
+
+    .listitem .listyear {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
 
     .listitem ul {
         list-style-type: none;
     }
 
     .listitem .listdate {
-        color: red;
+        color: #f93636;
+        font-weight: 500;
     }
 
-    .listitem li:hover {
-        background: #333333;
-        cursor: pointer;
+    .listitem li {
+        padding: 20px;
+        border-radius: 10px;
     }
+
+        .listitem li:hover {
+            background: #333333;
+            cursor: pointer;
+        }
 
 /* vedios.html*/
 .content {
@@ -150,21 +163,6 @@ h1 {
         margin-right: 200px;
     }
 
-    .listitem {
-        font-size: 1.2rem;
-        font-weight: 500;
-        line-height: 18px;
-    }
-
-        .listitem li {
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-    .listyear {
-        font-size: 1.8rem;
-        font-weight: 700;
-    }
     /* videos */
     .myquote {
         width: 50%;
@@ -182,22 +180,6 @@ h1 {
     .eventsRWD {
         margin-left: 100px;
         margin-right: 100px;
-    }
-
-    .listitem {
-        font-size: 1.2rem;
-        font-weight: 500;
-        line-height: 18px;
-    }
-
-        .listitem li {
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-    .listyear {
-        font-size: 1.8rem;
-        font-weight: 700;
     }
     /* videos */
     .myquote {
@@ -218,20 +200,6 @@ h1 {
         margin-right: 50px;
     }
 
-    .listitem {
-        font-size: 14pt;
-        line-height: 18px;
-    }
-
-        .listitem li {
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .listitem .listyear {
-            font-size: 20pt;
-            font-weight: 700;
-        }
     /* videos */
     .myquote {
         width: 70%;
@@ -251,20 +219,6 @@ h1 {
         margin-right: 0px;
     }
 
-    .listitem {
-        font-size: 14pt;
-        line-height: 18px;
-    }
-
-        .listitem li {
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .listitem .listyear {
-            font-size: 20pt;
-            font-weight: 700;
-        }
     /* videos */
     .myquote {
         width: 80%;
