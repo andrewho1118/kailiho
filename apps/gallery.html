@@ -21,6 +21,7 @@
     <script type="text/javascript" src="vendor/bootstrap_4.3.1/js/bootstrap.js"></script>
     <script type="text/javascript" src="vendor/bootstrap_4.3.1/js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="vendor/slick-1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="js/page.js"></script>
     <!-- Gallery -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="css/gallery-clean.css">
@@ -42,19 +43,13 @@
                 $("#winWidth").html("<p>" + getWidth() + "</p>");
             });
         });
-        function getWidth() {
-            var s = "";
-            s += "網頁可見區域寬：" + (document.body.clientWidth + 18);
-            s += "<br/>網頁可見區域高：" + document.body.clientHeight;
-            return s;
-        }
     </script>
 </head>
 <body>
     <button type="button" id="BackTop" class="toTop_arrow"></button>
     <!-- header -->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark navbar-toggler-color" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
@@ -574,8 +569,8 @@
     </div>
 
     <!-- footer -->
-    <footer class="footer bg-light fixed-bottom">
-        <div class="text-muted" style="text-align:center; padding: 5px;">&copy; Kaili Ho 2019. All Rights Reserved.</div>
+    <footer class="footer bg-light fixed-bottom footer-height">
+        <div class="text-muted">&copy; Kaili Ho 2019. All Rights Reserved.</div>
     </footer>
 
     <!-- Contact me -->

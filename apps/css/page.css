@@ -11,10 +11,17 @@
 }
 
 body {
-    font-family: 'bell-mt'; /* 在title再設定一次font-familiy也會有效果，不知道為啥 */
-    padding-top: 56px; /*navbar offset*/
-    background-color: #171717; /* #242324 */
+    font-family: 'bell-mt';
+    padding-top: 5vh; /* 扣掉navbar的高度 */
+    background-color: #171717;
     color: white;
+}
+
+.footer-height {
+    display: flex;
+    height: 2.5vh;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -24,7 +31,16 @@ h1 {
 }
 
 /* navbar 字體調整 */
-.navbar .navbar-brand {
+.navbar {
+    min-height: 5vh;
+    font-size: 16pt;
+}
+
+.navbar-toggler-color {
+    border: 1px solid #999999;
+}
+
+.navbar-brand {
     font-size: 16pt;
 }
 
@@ -78,22 +94,6 @@ h1 {
         padding: 35px;
         font-size: 3em;
     }
-
-.myquote {
-    color: #c5c7c5;
-    background-color: #1F1F1F;
-    margin: 0 auto 28px auto;
-    padding: 1rem;
-    width: 50%;
-    font-size: 2em;
-}v
-
-.vedioblock {
-    width: 50%;
-    margin: 28px auto auto auto;
-    border: 1px solid white;
-}
-
 
 /* 文字區塊美化 */
 .div-gradient {
@@ -155,8 +155,21 @@ h1 {
         font-weight: 700;
     }
     /* videos */
+    .myquote {
+        color: #c5c7c5;
+        background-color: #1F1F1F;
+        margin: 0 auto 28px auto;
+        padding: 1rem;
+        width: 50%;
+        font-size: 2em;
+    }
 
-
+    .vedioblock {
+        width: 50%;
+        height: 500px;
+        margin: 28px auto auto auto;
+        border: 1px solid white;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -170,7 +183,6 @@ h1 {
         font-size: 1.2rem;
         font-weight: 500;
         line-height: 18px;
-        
     }
 
         .listitem li {
@@ -183,6 +195,21 @@ h1 {
         font-weight: 700;
     }
     /* videos */
+    .myquote {
+        color: #c5c7c5;
+        background-color: #1F1F1F;
+        margin: 0 auto 28px auto;
+        padding: 1rem;
+        width: 70%;
+        font-size: 1.8em;
+    }
+
+    .vedioblock {
+        width: 70%;
+        height: 500px;
+        margin: 28px auto auto auto;
+        border: 1px solid white;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -207,6 +234,21 @@ h1 {
             font-weight: 700;
         }
     /* videos */
+    .myquote {
+        color: #c5c7c5;
+        background-color: #1F1F1F;
+        margin: 0 auto 28px auto;
+        padding: 1rem;
+        width: 70%;
+        font-size: 1.6em;
+    }
+
+    .vedioblock {
+        width: 70%;
+        height: 400px;
+        margin: 28px auto auto auto;
+        border: 1px solid white;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -231,4 +273,19 @@ h1 {
             font-weight: 700;
         }
     /* videos */
+    .myquote {
+        color: #c5c7c5;
+        background-color: #1F1F1F;
+        margin: 0 auto 28px auto;
+        padding: 1rem;
+        width: 80%;
+        font-size: 1.3em;
+    }
+
+    .vedioblock {
+        width: 80%;
+        height: 300px;
+        margin: 28px auto auto auto;
+        border: 1px solid white;
+    }
 }

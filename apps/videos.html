@@ -21,6 +21,7 @@
     <script type="text/javascript" src="vendor/bootstrap_4.3.1/js/bootstrap.js"></script>
     <script type="text/javascript" src="vendor/bootstrap_4.3.1/js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="vendor/slick-1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="js/page.js"></script>
     <script>
         $(function () {
             /*回頁首動畫*/
@@ -34,6 +35,9 @@
                     $('#BackTop').stop().fadeOut(222);
                 }
             }).scroll();
+            $(window).resize(function () {
+                $("#winWidth").html("<p>" + getWidth() + "</p>");
+            });
         });
     </script>
 </head>
@@ -41,7 +45,7 @@
     <button type="button" id="BackTop" class="toTop_arrow"></button>
     <!-- header -->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark navbar-toggler-color" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
@@ -81,21 +85,23 @@
 
     <!-- body -->
     <h1>VIDEOS</h1>
+    <div id="winWidth" style="display: none; font-family: Arial;">resize windows to show the width changing value here.</div>
     <div id="content">
         <div class="content">
             <div class="myquote div_radius15">See more videos on my <a href="https://www.youtube.com/channel/UCa0WZG__JwyrLtX_o0Be4Ow" target="_blank" style="color:red; cursor:pointer; text-decoration: none;">YouTube Channel</a></div>
             <div class="vedioblock">
-                <iframe width="99%" height="563" src="https://www.youtube.com/embed/gc9Iz15FhH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="99%" height="100%" src="https://www.youtube.com/embed/gc9Iz15FhH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="vedioblock">
-                <iframe width="99%" height="563" src="https://www.youtube.com/embed/K2k-dq1AQO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="99%" height="100%" src="https://www.youtube.com/embed/K2k-dq1AQO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <br />
         </div>
     </div>
 
     <!-- footer -->
-    <footer class="footer bg-light">
-        <div class="text-muted" style="text-align:center; padding: 5px;">&copy; Kaili Ho 2019. All Rights Reserved.</div>
+    <footer class="footer bg-light fixed-bottom footer-height">
+        <div class="text-muted">&copy; Kaili Ho 2019. All Rights Reserved.</div>
     </footer>
 
     <!-- Contact me -->
