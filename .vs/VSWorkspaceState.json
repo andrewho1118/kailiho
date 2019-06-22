@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\apps",
-    "\\apps\\css"
+    "\\apps\\img\\kailiho",
+    "\\apps\\js"
   ],
-  "SelectedNode": "\\apps\\videos.html",
+  "SelectedNode": "\\apps\\js\\page.js",
   "PreviewInSolutionExplorer": false
 }
