@@ -51,9 +51,28 @@
             background-image: url(img/kailiho/homepage/hp3.jpg);
         }
 
-    .title1 { display: block; font-family: 'bell-mt'; text-align: left; padding: 0px 0px; margin-top: 42vh; margin-left: 15vw; color: #FFF; font-size: 2rem; font-style: italic; }
+        /*.title1 {
+            display: block;
+            font-family: 'bell-mt';
+            text-align: left;
+            padding: 0px 0px;
+            margin-top: 42vh;
+            margin-left: 15vw;
+            color: #FFF;
+            font-size: 2rem;
+            font-style: italic;
+        }*/
 
-    .title2 { display: block; font-family: 'garamond'; text-align: left; padding: 0px 0px; margin-left: 14vw; color: #FFF; font-size: 1.7rem; font-style: italic; }
+        .title2 {
+            display: block;
+            font-family: 'garamond';
+            text-align: left;
+            padding: 0px 0px;
+            margin-left: 14vw;
+            color: #FFF;
+            font-size: 1.7rem;
+            font-style: italic;
+        }
     </style>
     <script>
         $(function () {
@@ -64,7 +83,7 @@
                 cssEase: 'linear',
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplay: true,
+                autoplay: false,
                 speed: 1200,
                 autoplaySpeed: 3000,
                 arrows: false,
@@ -97,27 +116,28 @@
                     }
                 ]
             });
+            getWidth();
         });
 
         function getWidth() {
             var s = "";
             s += "網頁可見區域寬：" + document.body.clientWidth;
             s += " \n網頁可見區域高：" + document.body.clientHeight;
-            s += " \n網頁可見區域寬：" + document.body.offsetWidth + " (包括邊線和捲軸的寬)";
-            s += " \n網頁可見區域高：" + document.body.offsetHeight + " (包括邊線的寬)";
-            s += " \n網頁正文全文寬：" + document.body.scrollWidth;
-            s += " \n網頁正文全文高：" + document.body.scrollHeight;
-            s += " \n網頁被卷去的高(ff)：" + document.body.scrollTop;
-            s += " \n網頁被卷去的高(ie)：" + document.documentElement.scrollTop;
-            s += " \n網頁被卷去的左：" + document.body.scrollLeft;
-            s += " \n網頁正文部分上：" + window.screenTop;
-            s += " \n網頁正文部分左：" + window.screenLeft;
-            s += " \n螢幕解析度的高：" + window.screen.height;
-            s += " \n螢幕解析度的寬：" + window.screen.width;
-            s += " \n螢幕可用工作區高度：" + window.screen.availHeight;
-            s += " \n螢幕可用工作區寬度：" + window.screen.availWidth;
-            s += " \n你的螢幕設置是 " + window.screen.colorDepth + " 位彩色";
-            s += " \n你的螢幕設置 " + window.screen.deviceXDPI + " 像素/英寸";
+            //s += " \n網頁可見區域寬：" + document.body.offsetWidth + " (包括邊線和捲軸的寬)";
+            //s += " \n網頁可見區域高：" + document.body.offsetHeight + " (包括邊線的寬)";
+            //s += " \n網頁正文全文寬：" + document.body.scrollWidth;
+            //s += " \n網頁正文全文高：" + document.body.scrollHeight;
+            //s += " \n網頁被卷去的高(ff)：" + document.body.scrollTop;
+            //s += " \n網頁被卷去的高(ie)：" + document.documentElement.scrollTop;
+            //s += " \n網頁被卷去的左：" + document.body.scrollLeft;
+            //s += " \n網頁正文部分上：" + window.screenTop;
+            //s += " \n網頁正文部分左：" + window.screenLeft;
+            //s += " \n螢幕解析度的高：" + window.screen.height;
+            //s += " \n螢幕解析度的寬：" + window.screen.width;
+            //s += " \n螢幕可用工作區高度：" + window.screen.availHeight;
+            //s += " \n螢幕可用工作區寬度：" + window.screen.availWidth;
+            //s += " \n你的螢幕設置是 " + window.screen.colorDepth + " 位彩色";
+            //s += " \n你的螢幕設置 " + window.screen.deviceXDPI + " 像素/英寸";
             alert(s);
         }
     </script>
