@@ -198,6 +198,20 @@ h1 {
     font-style: italic;
 }
 
+@media screen and (max-width: 1280px) {
+    .title1 {
+        display: block;
+        font-family: 'bell-mt';
+        text-align: left;
+        padding: 0px 0px;
+        margin-top: 42vh;
+        margin-left: 2vw;
+        color: #FFF;
+        font-size: 2rem;
+        font-style: italic;
+    }
+}
+
 /* RWD */
 @media (min-width: 1200px) {
     /* events */
