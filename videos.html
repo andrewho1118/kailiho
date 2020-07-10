@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,24 +24,27 @@
     <script type="text/javascript" src="vendor/slick-1.8.1/slick.min.js"></script>
     <script type="text/javascript" src="js/page.js"></script>
     <script>
-        $(function () {
+        $(function() {
             /*回頁首動畫*/
-            $('#BackTop').click(function () {
-                $('html,body').animate({ scrollTop: 0 }, 400);
+            $('#BackTop').click(function() {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 400);
             });
-            $(window).scroll(function () {
+            $(window).scroll(function() {
                 if ($(this).scrollTop() > 300) {
                     $('#BackTop').fadeIn(222);
                 } else {
                     $('#BackTop').stop().fadeOut(222);
                 }
             }).scroll();
-            $(window).resize(function () {
+            $(window).resize(function() {
                 $("#winWidth").html("<p>" + getWidth() + "</p>");
             });
         });
     </script>
 </head>
+
 <body>
     <button type="button" id="BackTop" class="toTop_arrow"></button>
     <!-- header -->
@@ -79,13 +83,15 @@
                     <a class="nav-link" href="gallery.html">GALLERY</a>
                 </li>
             </ul>
-            <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">Contact me</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">Contact
+                me</button>
         </div>
     </nav>
 
     <!-- body -->
     <h1>VIDEOS</h1>
-    <div id="winWidth" style="display: none; font-family: Arial;">resize windows to show the width changing value here.</div>
+    <div id="winWidth" style="display: none; font-family: Arial;">resize windows to show the width changing value here.
+    </div>
     <div id="content">
         <div class="content">
             <div class="myquote div_radius15">See more videos on my <a href="https://www.youtube.com/channel/UCa0WZG__JwyrLtX_o0Be4Ow" target="_blank" style="font-weight:300; color:red; cursor:pointer; text-decoration: none;">YouTube Channel</a></div>
@@ -118,8 +124,7 @@
                 <div class="modal-body">
                     <form action="https://formspree.io/kellyho922@gmail.com" method="POST">
                         Your Email(Optional)<br />
-                        <input class="w-100" type="text" name="Email" placeholder="" /><br />
-                        Send a messege to me<br />
+                        <input class="w-100" type="text" name="Email" placeholder="" /><br /> Send a messege to me<br />
                         <textarea class="w-100" type="text" name="Message" placeholder="type your message here..."></textarea>
                         <input type="submit" value="Send" class="btn btn-success">
                         <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
@@ -138,7 +143,7 @@
                         <a href="https://twitter.com/kellyho922">
                             <i class="fab fa-twitter-square fa-2x fa-fw"></i>
                         </a>
-                        <a href="https://www.instagram.com/kailiho922/">
+                        <a href="https://www.instagram.com/kailihopiano922/">
                             <i class="fab fa-instagram fa-2x fa-fw"></i>
                         </a>
                     </div>
@@ -149,7 +154,5 @@
 
 
 </body>
+
 </html>
-
-
-

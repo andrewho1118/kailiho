@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +16,8 @@
     <link rel="stylesheet" type="text/css" href="vendor/slick-1.8.1/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="css/toTopArrow.css" />
     <link rel="stylesheet" type="text/css" href="css/page.css" />
-    <link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css" />  <!-- for fb, instagram, twitter icons -->
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css" />
+    <!-- for fb, instagram, twitter icons -->
     <!-- js -->
     <script type="text/javascript" src="vendor/jquery_3.4.1/jquery_3.4.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -23,34 +25,38 @@
     <script type="text/javascript" src="vendor/slick-1.8.1/slick.min.js"></script>
     <style>
         .slick-slide {
-            height: 92vh; /* navber 5vh, footer 3vh, 所以中間的body就是92vh */
+            height: 92vh;
+            /* navber 5vh, footer 3vh, 所以中間的body就是92vh */
             outline: none;
         }
-
-        .pic_01, .pic_02, .pic_03, .pic_04, .pic_05 {
+        
+        .pic_01,
+        .pic_02,
+        .pic_03,
+        .pic_04,
+        .pic_05 {
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center center;
         }
-
+        
         .pic_01 {
             display: block;
             height: 92vh;
             background-image: url(img/kailiho/homepage/hp2.jpg);
         }
-
+        
         .pic_02 {
             display: block;
             height: 92vh;
             background-image: url(img/kailiho/homepage/hp1.jpg);
         }
-
+        
         .pic_03 {
             display: block;
             height: 92vh;
             background-image: url(img/kailiho/homepage/hp3.jpg);
         }
-
         /*.title1 {
             display: block;
             font-family: 'bell-mt';
@@ -62,7 +68,7 @@
             font-size: 2rem;
             font-style: italic;
         }*/
-
+        
         .title2 {
             display: block;
             font-family: 'garamond';
@@ -75,7 +81,7 @@
         }
     </style>
     <script>
-        $(function () {
+        $(function() {
             $('.responsive').slick({
                 infinite: true,
                 dots: false,
@@ -92,29 +98,25 @@
                 pauseOnFocus: false,
                 //prevArrow: '<button type="button" class="slick-prev Btn-prev">Previous</button>',
                 //nextArrow: '<button type="button" class="slick-next Btn-next">Next</button>',
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                     }
-                ]
+                }, {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
             });
             //getWidth();
         });
@@ -142,6 +144,7 @@
         }
     </script>
 </head>
+
 <body>
     <!-- header -->
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -179,7 +182,8 @@
                     <a class="nav-link" href="gallery.html">GALLERY</a>
                 </li>
             </ul>
-            <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">Contact me</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">Contact
+                me</button>
         </div>
     </nav>
 
@@ -192,8 +196,12 @@
                     <div class="title2 div_text_shadow"></div>
                 </div>
 
-                <div class="pic_02"><p class="title1 div_text_shadow "></p></div>
-                <div class="pic_03"><p class="title1 div_text_shadow "></p></div>
+                <div class="pic_02">
+                    <p class="title1 div_text_shadow "></p>
+                </div>
+                <div class="pic_03">
+                    <p class="title1 div_text_shadow "></p>
+                </div>
             </div>
         </div>
     </div>
@@ -217,8 +225,7 @@
                 <div class="modal-body">
                     <form action="https://formspree.io/kellyho922@gmail.com" method="POST">
                         Your Email(Optional)<br />
-                        <input class="w-100" type="text" name="Email" placeholder="" /><br />
-                        Send a messege to me<br />
+                        <input class="w-100" type="text" name="Email" placeholder="" /><br /> Send a messege to me<br />
                         <textarea class="w-100" type="text" name="Message" placeholder="type your message here..."></textarea>
                         <input type="submit" value="Send" class="btn btn-success">
                         <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
@@ -237,7 +244,7 @@
                         <a href="https://twitter.com/kellyho922">
                             <i class="fab fa-twitter-square fa-2x fa-fw"></i>
                         </a>
-                        <a href="https://www.instagram.com/kailiho922/">
+                        <a href="https://www.instagram.com/kailihopiano922/">
                             <i class="fab fa-instagram fa-2x fa-fw"></i>
                         </a>
                     </div>
@@ -246,4 +253,5 @@
         </div>
     </div>
 </body>
+
 </html>
