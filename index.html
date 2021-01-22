@@ -216,9 +216,14 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Contact me</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <form action="https://formspree.io/f/xaylvbrj" method="POST">
+                    Your Email(Optional)<br />
+                    <input class="w-100" type="text" name="Email" placeholder="" /><br /> Send a messege to me<br />
+                    <textarea class="w-100" type="text" name="Message" placeholder="type your message here..."></textarea>
+                    <input type="submit" value="Send" class="btn btn-success">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                    </form>
                 </div>
 
                 <!-- Modal body -->
