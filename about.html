@@ -150,11 +150,16 @@
                 <!-- Modal body -->
                 <div class="modal-body">
                     <form action="https://formspree.io/f/xqkovwoj" method="POST">
-                    Your Email(required)<br />
-                    <input class="w-100" type="text" name="Email" placeholder="" /><br /> Send a messege to me<br />
-                    <textarea class="w-100" type="text" name="Message" placeholder="type your message here..."></textarea>
-                    <input type="submit" value="Send" class="btn btn-success">
-                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                        <label>
+                            Your email:
+                             <input type="email" name="email">
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                           </label>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Send</button>
                     </form>
                 </div>
 
